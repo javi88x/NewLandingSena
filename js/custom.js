@@ -193,6 +193,7 @@
 					phone:{
 						required: true,
 						digits: true,
+						minlength: 10,
 					},	
 					message:{
 						required: true,
@@ -205,8 +206,8 @@
 								email: "Tú dirección de correo electrónico debe tener de la siguiente forma name@domain.com"
 							}, 
 							phone:{
-								required: "Please enter only digits",
-								digits: "Please enter a valid number"
+								required: "Por favor solo campos numericos",
+								digits: "Por favor ingresa 10 números"
 							}, 
 							message:{
 								required: "Please enter no more than (2) characters"

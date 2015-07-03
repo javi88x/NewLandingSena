@@ -8,7 +8,7 @@ $mail = new PHPMailer;
 // Aquí se deberían validar los datos ingresados por el usuario
 if(!isset($_POST['nombre']) ||
 	!isset($_POST['identificacion']) ||
-	!isset($_POST['telefono']) ||
+	!isset($_POST['phone']) ||
 	!isset($_POST['email']) ||
 	!isset($_POST['carreras'])){
 
@@ -38,7 +38,7 @@ $mail->Subject = 'Informacion Landing Principal';
 $mail->Body    .= "<b>Nombre:</b> " . $_POST['nombre'] . "\n";
 $mail->Body    .= "<b>Identificación:</b> " . $_POST['identificacion'] . "\n";
 $mail->Body    .= "<b>E-mail:</b> " . $_POST['email'] . "\n";
-$mail->Body    .= "<b>Teléfono:</b> " . $_POST['telefono'] . "\n";
+$mail->Body    .= "<b>Teléfono:</b> " . $_POST['phone'] . "\n";
 $mail->Body    .= "<b>Carrera de interes:</b> " . $_POST['carreras'] . "\n\n";
 $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
 

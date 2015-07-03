@@ -1,0 +1,5 @@
+AddDefaultCharset utf-8
+
+RewriteEngine On 
+RewriteCond %{HTTP_HOST} ^uninpahu.edu.co/inscribete 
+RewriteRule (.*) http://www.uninpahu.edu.co/inscribete/$1 [R=301,L]

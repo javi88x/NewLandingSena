@@ -45,6 +45,7 @@ body {
 	background-image: url(../img/parallax_bg/wallpaper.jpg); 
 	background-size: cover;
 	background-repeat: no-repeat;
+	width: 100%;
 }
 
 .parallax {

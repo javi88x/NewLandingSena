@@ -45,7 +45,6 @@ body {
 	background-image: url(../img/parallax_bg/wallpaper.jpg); 
 	background-size: cover;
 	background-repeat: no-repeat;
-	width: 100%;
 }
 
 .parallax {
@@ -202,6 +201,12 @@ ul {
 }
 .ext{
   text-shadow: 1px 1px #111;
+  font-size: 15px;
+}
+.logo-principal{
+	width: 100%;
+	max-width: 500px;
+	max-height: 100px;
 }
  strong.num-contacto {
   font-size: 20px;
@@ -211,6 +216,11 @@ ul {
  	color: #fff !important;
  	background-color: #e67e22 !important;
  	border-color: #d35400 !important;
+ }
+ .logo-principal{
+ 	width: 100%;
+ 	max-width: 550px;
+ 	max-height: 100px; 
  }
   .boton-enviar:hover{
  	color: #fff !important;

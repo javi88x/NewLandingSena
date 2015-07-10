@@ -197,23 +197,15 @@
 		  <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
 		<![endif]-->
 		
-	<!--Place this code where you want VIP widget to be rendered -->
-	<div id="casengo-vipbtn" class="casengo-vipbtn"></div>
-
-	<!--Place this code after the last Casengo VIP widget -->
-	<script type="text/javascript">
-		(function() {
-			var btn, l=0, setAttr = function(el, attrs) { for(var a in attrs) el.setAttribute('data-' + a, attrs[a]); },
-			getBtn = function() {
-				btn = document.getElementById('casengo-vipbtn'); l++;
-				if(!btn && l<=20) { setTimeout(getBtn,50); } else {
-					setAttr(btn, {subdomain: 'uninpahu', group: 'undefined', ctype: 'inline', position: 'bottom-right' , language: 'en_US'});
-					var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-					po.src = '//uninpahu.casengo.com/apis/inline-widget.js?r=30479de3d437bcde21278bb5a9c0f4d1f6d52f93';
-					var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-				}}; getBtn();
-		})();
-	</script>
+<!--Start of Zopim Live Chat Script-->
+<script type="text/javascript">
+window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=
+d.createElement(s),e=d.getElementsByTagName(s)[0];z.set=function(o){z.set.
+_.push(o)};z._=[];z.set._=[];$.async=!0;$.setAttribute("charset","utf-8");
+$.src="//v2.zopim.com/?39jl1BZoLT1Phgy6Oo8bEfmSbnIDqGnk";z.t=+new Date;$.
+type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
+</script>
+<!--End of Zopim Live Chat Script-->
 
 	<!-- Google Analytics -->
 	<script>
@@ -232,11 +224,9 @@
           });
         });
     </script>
-<<<<<<< HEAD
+
 	<script type="text/javascript">
-=======
        <script type="text/javascript">
->>>>>>> 6ed60bf5d81ca5392bcdcf4756b94a47a60bc59b
 	/* <![CDATA[ */
 	var google_conversion_id = 957104174;
 	var google_custom_params = window.google_tag_params;
@@ -250,10 +240,7 @@
 	<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/957104174/?value=0&amp;guid=ON&amp;script=0"/>
 	</div>
 	</noscript>
-<<<<<<< HEAD
 	</body>
-=======
      </body>
->>>>>>> 6ed60bf5d81ca5392bcdcf4756b94a47a60bc59b
 
 </html>

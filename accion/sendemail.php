@@ -34,7 +34,7 @@ $mail->addAttachment('/var/tmp/file.tar.gz');         // Add attachments
 $mail->addAttachment('/tmp/image.jpg', 'new.jpg');    // Optional name
 $mail->isHTML(true);                                  // Set email format to HTML
 
-$mail->Subject = 'Informacion Landing Principal';
+$mail->Subject = 'SENA';
 $mail->Body    .= "<b>Nombre:</b> " . $_POST['nombre'] . "\n";
 $mail->Body    .= "<b>Identificación:</b> " . $_POST['identificacion'] . "\n";
 $mail->Body    .= "<b>E-mail:</b> " . $_POST['email'] . "\n";
